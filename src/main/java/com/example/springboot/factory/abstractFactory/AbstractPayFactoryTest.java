@@ -1,7 +1,7 @@
-package com.example.springboot.factory;
+package com.example.springboot.factory.abstractFactory;
 
 /**
- * @description
+ * @description 复杂的产品工厂
  * @version 1.0.0
  * @author xuzhaochao
  * @date 2020年02月26日 16:05:00
@@ -9,10 +9,10 @@ package com.example.springboot.factory;
 public class AbstractPayFactoryTest {
 
     public static void main(String[] args) {
-        ChinaPayFactory payFactory = new ChinaPayFactory();
+        ChinaAbstractPayFactory payFactory = new ChinaAbstractPayFactory();
         payFactory.createWeiXinPay().pay();
 
-        ForeignPayFactory foreignPayFactory = new ForeignPayFactory();
+        ForeignAbstractPayFactory foreignPayFactory = new ForeignAbstractPayFactory();
         foreignPayFactory.createApplePay().pay();
     }
 }

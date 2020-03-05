@@ -1,4 +1,4 @@
-package com.example.springboot.factory;
+package com.example.springboot.factory.abstractFactory;
 
 /**
  * @description
@@ -6,7 +6,7 @@ package com.example.springboot.factory;
  * @author xuzhaochao
  * @date 2020年02月26日 15:58:00
  */
-public class ChinaPayFactory extends PayFactory {
+public class ChinaAbstractPayFactory extends AbstractPayFactory {
 
     protected IPay createWeiXinPay() {
         super.init();

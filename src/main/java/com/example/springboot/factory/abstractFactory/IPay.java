@@ -1,4 +1,4 @@
-package com.example.springboot.factory;
+package com.example.springboot.factory.abstractFactory;
 
 /**
  * @description

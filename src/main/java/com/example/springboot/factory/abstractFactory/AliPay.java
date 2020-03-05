@@ -1,4 +1,4 @@
-package com.example.springboot.factory;
+package com.example.springboot.factory.abstractFactory;
 
 /**
  * @description
@@ -6,10 +6,10 @@ package com.example.springboot.factory;
  * @author xuzhaochao
  * @date 2020年02月26日 15:59:00
  */
-public class UniPay implements IPay{
+public class AliPay implements IPay {
 
     @Override
     public void pay() {
-        System.out.println("银联支付");
+        System.out.println("支付宝支付");
     }
 }
